@@ -7,7 +7,7 @@ class script(object):
     
 🍿I Cᴀɴ Pʀᴏᴠɪᴅᴇ 𝗠𝗢𝗩𝗜𝗘𝗦/𝗦𝗘𝗥𝗜𝗘𝗦 Aɴᴅ Lᴏᴛ Mᴏʀᴇ... Dᴏɴ'ᴛ Wᴀsᴛᴇ Yᴏᴜʀ Tɪᴍᴇ ʙʏ Lᴏᴏᴋɪɴɢ Tᴏ ᢾAᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ & Eɴɪᴏʏ Mᴇʜ Pᴏᴡᴇʀᢿ🫵
 
-└ɪᴛ's Eᴀsʏ Tᴏ Usᴇ Mᴇ, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Mᴀᴋᴇ Mᴇ As Aᴅᴍɪɴ┘🤗</b>"""
+ɪᴛ's Eᴀsʏ Tᴏ Usᴇ Mᴇ, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Mᴀᴋᴇ Mᴇ As Aᴅᴍɪɴ🤗</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
