@@ -11,13 +11,13 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', '16229284'))
-API_HASH = environ.get('API_HASH', 'ebd1fead3cc15343bea10b5c164165ba')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6869343193:AAGmZwghTCbQDegYTkY5KYplT-1QCflSrrc")
+API_ID = int(environ.get('API_ID', '6135336'))
+API_HASH = environ.get('API_HASH', 'e0f846f8242aaaccff829ba801d0ad63')
+BOT_TOKEN = environ.get('BOT_TOKEN', "5504890263:AAGQF8fMkrZN914UU8wOr3ziOQOZMXvJUns")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/fbb9f9f774dacff88f8d9-148d5710dfc8f4ca35.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/vzI.jpg')).split()
 
 
 # Admins & Users
@@ -26,22 +26,22 @@ auth_users = [int(user) if id_pattern.search(user) else user for user in environ
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002023083749'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001930720726'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]  # For Multiple Id Use One Space Between Each.
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001666363760').split()]  # For Multiple Id Use One Space Between Each.
 
 # auth_channel means force subscribe channel.
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
-REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', False)) # Set True Or False
-TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', False)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub)
+REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', True)) # Set True Or False
+TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', True)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub)
 
 # This Is Force Subscribe Channel, also known as Auth Channel 
 auth_channel = environ.get('AUTH_CHANNEL', '') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
 # This Channel Is For When User Request File With command or hashtag like - /request or #request
-reqst_channel = environ.get('REQST_CHANNEL_ID', '')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001714845457')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 
 # This Is Your Bot Support Group Id , Here Bot Will Not Give File Because This Is Support Group.
@@ -52,7 +52,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 
 # This Channel Is For /batch command file store.
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002023083749')).split()]  # For Multiple Id Use One Space Between Each.
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001666363760')).split()]  # For Multiple Id Use One Space Between Each.
 
 # This Channel Is For Delete Index File, Forward Your File In This Channel Which You Want To Delete Then Bot Automatically Delete That File From Database.
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]  # For Multiple Id Use One Space Between Each.
@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+nzb8EcPaMIg3N2Zl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AnimeRips')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+nzb8EcPaMIg3N2Zl') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/AnimeRips_owner')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+rpsruF_cGog3ZWFl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ViP_LinkzZ')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+eZSQ9l3PtPk4ZTU1') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Thoshy0')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -126,9 +126,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'papajiurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '648de631f164bb35c4a394c4846fa55a4b45b1f1')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+7TfUUdYITJwxZjBl') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'krownlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '65d5dfe355f1f26be6460d2775d5e0baf110de86')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HTD_Shortnerlink/4') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
