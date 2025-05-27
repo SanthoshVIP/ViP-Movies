@@ -2219,13 +2219,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
             InlineKeyboardButton("❤️ Share And Support ❤️", callback_data="laninfo")
         ],[
-            InlineKeyboardButton("✨ Main Channel ✨", url="https://t.me/AnimeRips")
+            InlineKeyboardButton("❤️‍🔥 𝗠ᴀɪɴ 𝗖ʜᴀɴɴᴇ𝗹 💢", url="https://t.me/ViP_LinkzZ")
         ],[
-            InlineKeyboardButton("💐 Curnchyroll Official 💐", url="https://t.me/Crunchyroll_tamil_Official"),
-            InlineKeyboardButton("〽️ Movies Rips 〽️", url="https://t.me/MoviesRips")
+            InlineKeyboardButton("💐 VIP Movies Official 💐", url="https://t.me/VIP_MoviesOffl"),
+            InlineKeyboardButton("⛩️ 𝗔ɴɪᴍᴇ 𝗖ʜᴀɴɴᴇ𝗹 ⚡", url="https://t.me/ViP_Animes")
         ],[
-            InlineKeyboardButton("🔥 Movie ~ Collections 🔥", url="https://t.me/+Zqjkgr6Y9qJiMDg9"),
-            InlineKeyboardButton("⚡️ Anime ~ Collections ⚡️", url="https://t.me/+96itSu-9P8g3ZjJl")
+            InlineKeyboardButton("🛍️ 𝗗ᴇᴀʟꜱ 𝗜ɴ 𝗢ꜰꜰᴇ𝗿 🤝", url="https://t.me/+BmeSVLqvmXFlZjY9"),
+            InlineKeyboardButton("⚡️ Anime Collections ⚡️", url="https://t.me/+LJB0Dl0kEOwzYjRl")
         ],[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
         ]]
