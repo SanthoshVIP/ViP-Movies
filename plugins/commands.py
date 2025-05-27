@@ -76,7 +76,7 @@ async def start(client, message):
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("https://envs.sh/vzI.jpg") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAIDtmf_rfx-H8AMg77yzSC44GykNpLxAAIgBgAC51KhV3YWhBOb-AlhHgQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -220,7 +220,7 @@ async def start(client, message):
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
             reply_markup = InlineKeyboardMarkup(buttons)
-            m=await message.reply_sticker("CAACAgUAAxkBAAEBT3dnd2JkCu3rJKp0jF9-eu21f8kOtwACRRIAAsPvkVREHw5SlTxKtB4E") 
+            m=await message.reply_sticker("CAACAgUAAxkBAAIDtmf_rfx-H8AMg77yzSC44GykNpLxAAIgBgAC51KhV3YWhBOb-AlhHgQ") 
             await asyncio.sleep(1)
             await m.delete()
             await message.reply_photo(
@@ -623,7 +623,7 @@ async def start(client, message):
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@AnimeRips  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '@ViP_LinkzZ  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
